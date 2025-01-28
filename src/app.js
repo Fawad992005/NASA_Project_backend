@@ -8,7 +8,7 @@ const launhcesRouter = require("./routes/launches/launches.router");
 const app = express();
 app.use(
   cors({
-    origin: "https://nasa-project-frontend-gray.vercel.app",
+    origin: "https://nasa-project-frontend-ii1jh4yw9-fawad992005s-projects.vercel.app",
   })
 );
 app.use(morgan("combined"));
